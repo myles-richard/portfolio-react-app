@@ -77,3 +77,30 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+//Media Query Mixins 
+@mixin mediaSm {
+    @media screen and (max-width: 500px){
+        // anything we put inside mixin in another file we just add mixin 
+        // and it automatically gets put in here
+        @content;
+    }
+}
+
+
+@mixin mediaMd {
+    @media screen and (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px){
+        @content;
+    }
+}
+@mixin mediaXl {
+    @media screen and (min-width: 1171px){
+        @content;
+    }
+}
