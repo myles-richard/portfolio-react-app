@@ -48,25 +48,19 @@ export default function Header() {
                                 Home
                             </a>
                         </li>
-                    </ul>
-
-                    <ul className="menu-nav">
+                 
                         <li className="nav-item">
                             <a href="/about" className="nav-link">
                                 About Me
                             </a>
                         </li>
-                    </ul>
-
-                    <ul className="menu-nav">
+              
                         <li className="nav-item">
                             <a href="/work" className="nav-link">
                                 My Work
                             </a>
                         </li>
-                    </ul>
-
-                    <ul className="menu-nav">
+                    
                         <li className="nav-item">
                             <a href="/" className="nav-link">
                                 Home
@@ -96,25 +90,19 @@ export default function Header() {
                             Home
                         </a>
                     </li>
-                </ul>
-
-                <ul className="menu-nav show">
+               
                     <li className="nav-item show">
                         <a href="/about" className="nav-link">
                             About Me
                         </a>
                     </li>
-                </ul>
-
-                <ul className="menu-nav show">
+            
                     <li className="nav-item show">
                         <a href="/work" className="nav-link">
                             My Work
                         </a>
                     </li>
-                </ul>
-
-                <ul className="menu-nav show">
+            
                     <li className="nav-item show">
                         <a href="/" className="nav-link">
                             Home
