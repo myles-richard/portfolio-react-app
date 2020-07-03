@@ -42,7 +42,7 @@ export default function Header() {
                         <div className="portrait"></div>
                     </div>
                     
-                    <ul className="menu-nav">
+                    <ul className="menu-nav current">
                         <li className="nav-item">
                             <a href="/" className="nav-link">
                                 Home
@@ -84,7 +84,7 @@ export default function Header() {
                     <div className="portrait"></div>
                 </div>
                 
-                <ul className="menu-nav show">
+                <ul className="menu-nav show current">
                     <li className="nav-item show">
                         <a href="/" className="nav-link">
                             Home
@@ -104,8 +104,8 @@ export default function Header() {
                     </li>
             
                     <li className="nav-item show">
-                        <a href="/" className="nav-link">
-                            Home
+                        <a href="/contact" className="nav-link">
+                            Contact
                         </a>
                     </li>
                 </ul>

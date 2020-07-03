@@ -51,7 +51,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    // opacity: 0.9;
     visibility: hidden;
     
 
@@ -69,5 +69,84 @@ header {
         width: 50%;
         height: 100vh;
         overflow: hidden;
+    }
+
+    //--------Nav side---------
+    &-nav {
+        margin: 0;
+        padding: 0;
+        background: darken($primary-color, 5);
+        list-style: none;
+        // make nav come in from top
+        transform: translate3d(0,-100%,0);
+        @include easeOut;
+
+        &.show {
+            // slide in from top
+            transform: translate3d(0,0,0);
+        }
+    }
+
+    // Branding Side
+    &-branding {
+        background: $primary-color;
+        // make nav come in from bottom
+        transform: translate3d(0,100%,0);
+        @include easeOut;
+
+        &.show {
+            // slide in from bottom
+            transform: translate3d(0,0,0);
+        }
+
+        .portrait {
+            width: 200px;
+            height: 250px;
+            background: url('../images/profile.jpeg');
+            background-repeat: no-repeat;
+            background-size: 200px 250px;
+            // border-radius: 50%;
+            border: solid 3px $secondary-color;
+        }
+    }
+
+    .nav-item {
+        //move 600px of screen at start
+        transform: translate3d(600px, 0, 0);
+        @include easeOut;
+        // when show class comes slide in from right
+        &.show {
+            // slide in from bottom
+            transform: translate3d(0,0,0);
+        }
+
+        &.current > a {
+            color: $secondary-color
+        }
+    }
+
+    .nav-link {
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding: 1rem 0;
+        text-decoration: none;
+        color: #fff;
+        @include easeOut;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+// Delay Each Nav Item slide by 0.1seconds 
+// for(let x = 0; i < 4, i++) 
+@for $x from 1 through 4 {
+    .nav-item:nth-child(#{$x}) {
+        // set delay to variable and multiply it by 0.1s
+        transition-delay: $x * 0.1s;
     }
 }
