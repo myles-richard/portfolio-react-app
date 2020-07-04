@@ -14,13 +14,14 @@ export default function Home() {
                 <a href="#!">
                     <i className="fab fa-twitter fa-2x"></i>
                 </a>
+                
                 <a href="#!">
                     <i className="fab fa-facebook fa-2x"></i>
                 </a>
-                <a href="#!">
+                <a href="https://www.linkedin.com/in/myles-richard/">
                     <i className="fab fa-linkedin fa-2x"></i>
                 </a>
-                <a href="#!">
+                <a href="https://github.com/myles-richard">
                     <i className="fab fa-github fa-2x"></i>
                 </a>
             </div>

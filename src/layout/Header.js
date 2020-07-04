@@ -1,17 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
-// import { Link } from 'react-scroll';
-// import About from './about/About';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
-    const menuBtn = document.querySelector('.menu-btn');
-    const menu = document.querySelector('.menu');
-    const menuNav = document.querySelector('.menu-nav');
-    const menuBranding = document.querySelector('.menu-branding');
-    const navItems = document.querySelectorAll('.nav-item');
-    
-
-
     // Set Initial State Of Menu 
     //add component level state
     const [showMenu, setMenu] = useState(false);
@@ -51,11 +41,9 @@ export default function Header() {
                     </li>
                 
                     <li className="nav-item">
-                   
-                        
-                        {/* <a href="/about" className="nav-link">
+                        <a href="/about" className="nav-link">
                             About Me
-                        </a> */}
+                        </a>
                     </li>
             
                     <li className="nav-item">
@@ -74,6 +62,9 @@ export default function Header() {
             
         </header>
     )
+    const changeMenu = () => {
+        setMenu(false)
+    }
 
     const showLinks = (
         <header>
@@ -89,49 +80,23 @@ export default function Header() {
                 
                 <ul className="menu-nav show current">
                     <li className="nav-item show">
-                    <Link to="/" className="nav-link" >Home</Link>
-                        {/* <a href="/" className="nav-link">
-                            Home
-                        </a> */}
+                        <Link to="/" onClick={changeMenu} className="nav-link" >Home</Link>
                     </li>
                
                     <li className="nav-item show">
-                    {/* <Link
-                        className="nav-link"
-                        activeClass="active"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration= {500}
-                        onClick={toggleMenu}
-                    >About Me</Link> */}
-                    <Link to="/about" className="nav-link">About Me</Link>
-                        {/* <a href="/about" className="nav-link">
-                            About Me
-                        </a> */}
+                        <Link to="/about" onClick={changeMenu} className="nav-link">About Me</Link>
                     </li>
             
                     <li className="nav-item show">
-                        <a href="/work" className="nav-link">
-                            My Work
-                        </a>
+                    <Link to="/work" onClick={changeMenu} className="nav-link">My Work</Link>
                     </li>
             
                     <li className="nav-item show">
-                    <Link to="/contact" className="nav-link">Contact Me</Link>
-                        {/* <a href="/contact" className="nav-link">
-                            Contact
-                        </a> */}
+                    <Link to="/contact" onClick={changeMenu} className="nav-link">Contact Me</Link>
                     </li>
                 </ul>
 
             </nav>
-            {/* <div>
-                <Switch>
-                    <Route exact path="/about" component={About} />
-                </Switch>
-            </div> */}
         </header>
 
     )
