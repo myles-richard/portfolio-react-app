@@ -1,6 +1,6 @@
 main {
     padding: 4rem;
-    height: 100%;
+    height: calc(100vh - 60px);
 
     .icons {
         margin-top: 1rem;
@@ -64,7 +64,7 @@ main {
             height: 150px;
             background: url('../../images/profile.jpeg');
             background-repeat: no-repeat;
-            background-size: 150px 150px;
+            background-size: cover;
             // border-radius: 50%;
             border: solid 3px $secondary-color;
         }

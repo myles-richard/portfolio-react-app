@@ -29,9 +29,18 @@ $background-opacity: 0.8;
     }
 }
 
-:root {
-    --primary-color: #444;
+// Set Text color
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
 }
+
+// :root {
+//     --primary-color: #444;
+// }
 
 *,
 *::after,
@@ -49,8 +58,8 @@ html {
 /* all child element will get these */
 body {
     @include background();
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
@@ -74,10 +83,34 @@ h3 {
 }
 
 a {
-    color: #fff;
+    color: set-text-color($primary-color);;
     text-decoration: none;
 }
 
+
+// Button Styles 
+.btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+
+    &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+
+.btn-dark {
+    @extend .btn;
+    background: darken($primary-color, 50);
+    color: #fff;
+}
+.btn-light {
+    @extend .btn;
+    background: lighten($primary-color, 50);
+    color: #333;
+}
 //Media Query Mixins 
 @mixin mediaSm {
     @media screen and (max-width: 500px){

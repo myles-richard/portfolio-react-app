@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import About from '../About';
+import { Route, Link, Switch } from 'react-router-dom';
+// import { Link } from 'react-scroll';
+// import About from './about/About';
 
 export default function Header() {
     const menuBtn = document.querySelector('.menu-btn');
@@ -37,38 +38,40 @@ export default function Header() {
                 <div className="btn-line"></div>
                 <div className="btn-line"></div>
             </div>
-                <nav className="menu">
-                    <div className="menu-branding">
-                        <div className="portrait"></div>
-                    </div>
-                    
-                    <ul className="menu-nav current">
-                        <li className="nav-item">
-                            <a href="/" className="nav-link">
-                                Home
-                            </a>
-                        </li>
-                 
-                        <li className="nav-item">
-                            <a href="/about" className="nav-link">
-                                About Me
-                            </a>
-                        </li>
-              
-                        <li className="nav-item">
-                            <a href="/work" className="nav-link">
-                                My Work
-                            </a>
-                        </li>
-                    
-                        <li className="nav-item">
-                            <a href="/" className="nav-link">
-                                Home
-                            </a>
-                        </li>
-                    </ul>
-
+            <nav className="menu">
+                <div className="menu-branding">
+                    <div className="portrait"></div>
+                </div>
+                
+                <ul className="menu-nav current">
+                    <li className="nav-item">
+                        <a href="/" className="nav-link">
+                            Home
+                        </a>
+                    </li>
+                
+                    <li className="nav-item">
+                   
+                        
+                        {/* <a href="/about" className="nav-link">
+                            About Me
+                        </a> */}
+                    </li>
+            
+                    <li className="nav-item">
+                        <a href="/work" className="nav-link">
+                            My Work
+                        </a>
+                    </li>
+                
+                    <li className="nav-item">
+                        <a href="/" className="nav-link">
+                            Home
+                        </a>
+                    </li>
+                </ul>
             </nav>
+            
         </header>
     )
 
@@ -86,15 +89,27 @@ export default function Header() {
                 
                 <ul className="menu-nav show current">
                     <li className="nav-item show">
-                        <a href="/" className="nav-link">
+                    <Link to="/" className="nav-link" >Home</Link>
+                        {/* <a href="/" className="nav-link">
                             Home
-                        </a>
+                        </a> */}
                     </li>
                
                     <li className="nav-item show">
-                        <a href="/about" className="nav-link">
+                    {/* <Link
+                        className="nav-link"
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                        onClick={toggleMenu}
+                    >About Me</Link> */}
+                    <Link to="/about" className="nav-link">About Me</Link>
+                        {/* <a href="/about" className="nav-link">
                             About Me
-                        </a>
+                        </a> */}
                     </li>
             
                     <li className="nav-item show">
@@ -111,6 +126,11 @@ export default function Header() {
                 </ul>
 
             </nav>
+            {/* <div>
+                <Switch>
+                    <Route exact path="/about" component={About} />
+                </Switch>
+            </div> */}
         </header>
 
     )
