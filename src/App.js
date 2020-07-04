@@ -5,6 +5,7 @@ import Header from './layout/Header';
 import Home from './layout/home/Home';
 import About from './layout/about/About';
 import Work from './layout/work/Work';
+import Contact from './layout/contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/work" component={Work} />
+          <Route exact path="/contact" component={Contact} />
       </Switch>
       {/* <Home /> */}
       {/* <About /> */}

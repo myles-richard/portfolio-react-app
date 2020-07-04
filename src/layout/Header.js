@@ -119,9 +119,10 @@ export default function Header() {
                     </li>
             
                     <li className="nav-item show">
-                        <a href="/contact" className="nav-link">
+                    <Link to="/contact" className="nav-link">Contact Me</Link>
+                        {/* <a href="/contact" className="nav-link">
                             Contact
-                        </a>
+                        </a> */}
                     </li>
                 </ul>
 
