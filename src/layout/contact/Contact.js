@@ -16,10 +16,7 @@ export default function Contact() {
                     myrich22@gmail.com
                 </div>
 
-                <div>
-                    <span className="text-secondary">Phone:</span>
-                    (503)-384-8818
-                </div>
+              
 
                 <div>
                     <span className="text-secondary">Location:</span>

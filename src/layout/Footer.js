@@ -3,7 +3,8 @@ import React from 'react'
 export default function footer() {
     return (
         <footer id="main-footer">
-            Copyright &copy; 2020
+            <h2>Email: Myrich22@gmail.com </h2>
+            
         </footer>
     )
 }

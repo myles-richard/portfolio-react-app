@@ -1,4 +1,6 @@
-
+#about {
+    height: 100%;
+}
 .about-info {
     display: grid;
     grid-template-areas: 
@@ -35,7 +37,7 @@
     
     .job {
         background: lighten($primary-color, 5);
-        padding: 0.5rem;
+        padding: 1.5rem;
         border-bottom: $secondary-color 5px solid;
         
     }

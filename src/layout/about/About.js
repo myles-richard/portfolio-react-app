@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer';
 
 export default function About(props) {
 
@@ -20,29 +19,33 @@ export default function About(props) {
                 className="bio-image" />
                 <div className="bio">
                     <h3 className="text-secondary">Bio</h3>
-                    <p>I'm a full-stack Software Engineer with an eye for design. Conceptualizing an Idea
-                        and bringing it to life through code has become a new passion of mine. I've always been
-                        a tech-enthusiast that likes to learn and and tackle new problems daily. My background 
-                        includes sales & athletics, which helps me solve problems both anilytically and creatively.</p>
+                    <p>I’m a full stack software developer with a background in sales and marketing. My specialty is frontend development, I enjoy being able to creatively solve problems through code and design. I have experience engineering, designing, testing, and building new applications.  
+
+                    <br/>I’m  inspired by how technology is changing the world, disrupting industries and igniting change. I want to be a part of that.</p>
                 </div>
                 <div className="job job-1">
                     <h3>Adobe</h3>
-                    <h5>Front End Developer</h5>
-                    <p>Marketing Insights and Operations team.
-                        sdfbfdbdfbdfbfdbfdbgfbgfnbgfnfgngfngfngf.
-                        sdbdfgbgfbgfbfdbdfbfdbdfdfbdbddbdfbbdfb.</p>
+                    <h5>Software Developer Intern</h5>
+                    <p>Digital Academy Intern joining a team of 5, woring as a Remote Solutions Developer on the Marketing Insights and Operations
+                        Team. <br/>My project is to make a Content Classification Application using Adobe's React Spectrum.<br/>
+                         It makes the process of capturing meta data and 
+                        benefiting from that information easier and more streamlined by:</p>
+                        {/* <ul>
+                            <li>storing those classifications in a central location.</li>
+                            <li>allowing anyone to add additional metadata to that content through a UI and even a browser extension.</li>
+                            <li>routing that data to the appropriate downstream systems.</li>
+                            <li>Some downstream systems that will benefit from my projects are things like Facebook pixel tracking, Adobe Analytics reporting and segmentation, and signals to Audience Manager for building and populating segments.</li>
+                            <li>Eventually this can be used for personalization at scale and better reporting and analysis.</li>
+                        </ul> */}
                 </div>
                 <div className="job job-2">
-                    <h3>SoftWare Engeneering Immersive</h3>
-                    <h5>Full Stack Developer</h5>
-                    <p>Projects:<br/>Title: XRSZ | Date: April 2020 | Description:<br/>
-                    ● Designed and developed the frontend and backend of a workout website. Easy to do workouts while in quarantine.<br/>
-                    ● Technologies used: HTML, SCSS, JavaScript, React.JS, Semantic-UI-React, Node.JS, Express, MongoDB.<br/>
-                    <br/>
-                    Title: Simon Game | Date: February 2020 | Description:<br/>
-                    ● Designed and developed an online web version of The Simon Game.<br/>
-                    ● Technologies used: HTML, CSS, JavaScript.<br/>
-                    ● Presented both to a diverse audience of 28 classmates and close friends. Used feedback to improve the game.</p>
+                    <h3>Software Engeneering Immersive</h3>
+                    <h4>Adobe Digital Academy Schollarship Award Winner | <a href="https://generalassemb.ly/how-we-work/social-impact/adobe-digital-academy">Adobe Digital Academy</a></h4>
+                    <p>12 week immersive web development course includes Full-stack app development learning key programming languages, algorithms, data structures, design patterns, APIs, and more.</p>
+                        <ul>
+                            <li>Created & Developed projects focusing on full-stack front-end and back-end web development, problem solving, and collaboration skills.</li>
+                            <li>Gained skills using Javascript, Node JS, Express, Python, React, MongoDB, Mongoose, Bootstrap,Semantic-UI, SASS, HTML, CSS</li>
+                        </ul>
                 </div>
                 <div className="job job-3">
                     <h3>Free Lance Digital Marketing</h3>
@@ -58,7 +61,6 @@ export default function About(props) {
                     ● Created print/ digital ads, blog and flyers, with a consistent look across platforms for all digital/ social media platforms.</p>
                 </div>
             </div>
-            <Footer />
         </main>
     )
 }

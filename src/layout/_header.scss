@@ -100,12 +100,12 @@ header {
         }
 
         .portrait {
-            width: 200px;
+            width: 250px;
             height: 250px;
-            background: url('../images/profile.jpeg');
+            background: url('../images/myicon.png');
             background-repeat: no-repeat;
             background-size: cover;
-            // border-radius: 50%;
+            border-radius: 50%;
             border: solid 3px $secondary-color;
         }
     }
