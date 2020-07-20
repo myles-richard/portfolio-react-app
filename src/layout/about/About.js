@@ -25,7 +25,7 @@ export default function About(props) {
                 </div>
                 <div className="job job-1">
                     <h3>Adobe</h3>
-                    <h5>Software Developer Intern</h5>
+                    <h4>Software Developer Intern</h4>
                     <p>Digital Academy Intern joining a team of 5, woring as a Remote Solutions Developer on the Marketing Insights and Operations
                         Team. <br/>My project is to make a Content Classification Application using Adobe's React Spectrum.<br/>
                          It makes the process of capturing meta data and 
@@ -48,17 +48,23 @@ export default function About(props) {
                         </ul>
                 </div>
                 <div className="job job-3">
-                    <h3>Free Lance Digital Marketing</h3>
-                    <h5>Front End Developer</h5>
-                    <p>Gamespeed - www.Gamespeed.com - July 2019 - December 2019
-                    - Concord,CA<br/>
-                    ● Revamped Website with wordpress.<br/>
-                    ● SEO optimized and created content for web pages.<br/>
-                    ● Set up and executed Facebook ads increasing reach and engagement among targeted demographics and age groups.<br/>
-                    3C Hemp - www.3CHemp.com <br/> March 2019
-                    Oakley, CA<br/>
-                    ● Built Squarespace website, SEO optimized and created content for web pages.<br/>
-                    ● Created print/ digital ads, blog and flyers, with a consistent look across platforms for all digital/ social media platforms.</p>
+                    <h3>Free Lance Digital Marketing/ Web Design</h3>
+                    <h4>Digital Marketing</h4><br/>
+                    <p>Gamespeed - www.Gamespeed.com - Concord,CA</p>
+                    <ul>
+                        <li>Revamped Website with wordpress.</li>
+                        <li>SEO optimized and created content for web pages.</li>
+                        <li>Set up and executed Facebook ads increasing reach and engagement among targeted demographics and age groups.</li>
+                    </ul><br/>
+                    {/* ● <br/>
+                    <br/> */}
+                    <p>
+                    3C Hemp - www.3CHemp.com - Oakley, CA</p>
+                    <ul>
+                        <li>Built Squarespace website, SEO optimized and created content for web pages.</li>
+                        <li>Created print/ digital ads, blog and flyers, with a consistent look across platforms for all digital/ social media platforms.</li>
+                    </ul>
+                    <br/>
                 </div>
             </div>
         </main>
