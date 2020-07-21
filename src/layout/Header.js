@@ -80,7 +80,7 @@ export default function Header() {
                 
                 <ul className="menu-nav show current">
                     <li className="nav-item show">
-                        <Link to="/" onClick={changeMenu} className="nav-link" >Home</Link>
+                        <Link to="/portfolio-react-app" onClick={changeMenu} className="nav-link" >Home</Link>
                     </li>
                
                     <li className="nav-item show">
