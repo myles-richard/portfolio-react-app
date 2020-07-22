@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-react-app/static/css/main.75c9e7ac.chunk.css",
-    "main.js": "/portfolio-react-app/static/js/main.a9a350c9.chunk.js",
-    "main.js.map": "/portfolio-react-app/static/js/main.a9a350c9.chunk.js.map",
+    "main.css": "/portfolio-react-app/static/css/main.22cef78a.chunk.css",
+    "main.js": "/portfolio-react-app/static/js/main.3cf6eb24.chunk.js",
+    "main.js.map": "/portfolio-react-app/static/js/main.3cf6eb24.chunk.js.map",
     "runtime-main.js": "/portfolio-react-app/static/js/runtime-main.9f11202b.js",
     "runtime-main.js.map": "/portfolio-react-app/static/js/runtime-main.9f11202b.js.map",
     "static/js/2.c90c319a.chunk.js": "/portfolio-react-app/static/js/2.c90c319a.chunk.js",
     "static/js/2.c90c319a.chunk.js.map": "/portfolio-react-app/static/js/2.c90c319a.chunk.js.map",
     "index.html": "/portfolio-react-app/index.html",
-    "precache-manifest.ded94481fb8d3a36dca8f50a80d57f4e.js": "/portfolio-react-app/precache-manifest.ded94481fb8d3a36dca8f50a80d57f4e.js",
+    "precache-manifest.5f30cf8cc92b84a9d1f00bc38f50754a.js": "/portfolio-react-app/precache-manifest.5f30cf8cc92b84a9d1f00bc38f50754a.js",
     "service-worker.js": "/portfolio-react-app/service-worker.js",
-    "static/css/main.75c9e7ac.chunk.css.map": "/portfolio-react-app/static/css/main.75c9e7ac.chunk.css.map",
+    "static/css/main.22cef78a.chunk.css.map": "/portfolio-react-app/static/css/main.22cef78a.chunk.css.map",
     "static/js/2.c90c319a.chunk.js.LICENSE.txt": "/portfolio-react-app/static/js/2.c90c319a.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio-react-app/static/media/myicon.36d9bce0.png",
     "static/media/profile.jpeg": "/portfolio-react-app/static/media/profile.fb440c95.jpeg",
-    "static/media/simon.jpeg": "/portfolio-react-app/static/media/simon.3db0df3c.jpeg",
-    "static/media/xrsz.jpeg": "/portfolio-react-app/static/media/xrsz.616f871b.jpeg"
+    "static/media/simon2.jpeg": "/portfolio-react-app/static/media/simon2.8bf4aa05.jpeg",
+    "static/media/xrsziphone.jpeg": "/portfolio-react-app/static/media/xrsziphone.5516f392.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.9f11202b.js",
     "static/js/2.c90c319a.chunk.js",
-    "static/css/main.75c9e7ac.chunk.css",
-    "static/js/main.a9a350c9.chunk.js"
+    "static/css/main.22cef78a.chunk.css",
+    "static/js/main.3cf6eb24.chunk.js"
   ]
 }
