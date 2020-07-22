@@ -8,7 +8,7 @@ export default function Contact() {
                 Contact <span className="text-secondary">Me</span>
             </h1>
             <h2 className="sm-heading">
-                This is how you can reach me...
+                You can reach me at:
             </h2>
             <div className="boxes">
                 <div>

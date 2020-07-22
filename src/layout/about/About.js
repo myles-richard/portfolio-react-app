@@ -12,7 +12,7 @@ export default function About(props) {
                 About <span className="text-secondary">Me</span>
             </h1>
             <h2 className="sm-heading">
-                Let me tell you a few things...
+                Let me tell you a few things -
             </h2>
             <div className="about-info">
                 <img src={require('../../images/profile.jpeg')} alt="myles rich"
@@ -25,9 +25,10 @@ export default function About(props) {
                 </div>
                 <div className="job job-1">
                     <h3>Adobe</h3>
-                    <h4>Software Developer Intern</h4>
+                    <h4>Software Developer Intern</h4><br/>
                     <p>Digital Academy Intern joining a team of 5, woring as a Remote Solutions Developer on the Marketing Insights and Operations
-                        Team. <br/>My project is to make a Content Classification Application using Adobe's React Spectrum.<br/>
+                        Team. <br/>
+                        <br/>My project is to make a Content Classification Application using Adobe's React Spectrum.<br/>
                          It makes the process of capturing meta data and 
                         benefiting from that information easier and more streamlined by:</p>
                         {/* <ul>
@@ -40,10 +41,10 @@ export default function About(props) {
                 </div>
                 <div className="job job-2">
                     <h3>Software Engeneering Immersive</h3>
-                    <h4>Adobe Digital Academy Schollarship Award Winner | <a href="https://generalassemb.ly/how-we-work/social-impact/adobe-digital-academy">Adobe Digital Academy</a></h4>
-                    <p>12 week immersive web development course includes Full-stack app development learning key programming languages, algorithms, data structures, design patterns, APIs, and more.</p>
+                    <h4>Adobe Digital Academy Schollarship Award Winner | <a href="https://generalassemb.ly/how-we-work/social-impact/adobe-digital-academy">Adobe Digital Academy</a></h4><br/>
+                    <p>12 week immersive web development course includes Full-stack app development learning key programming languages, algorithms, data structures, design patterns, APIs, and more.</p><br/>
                         <ul>
-                            <li>Created & Developed projects focusing on full-stack front-end and back-end web development, problem solving, and collaboration skills.</li>
+                            <li>Created & Developed projects focusing on full-stack front-end and back-end web development, problem solving, and collaboration skills.</li><br/>
                             <li>Gained skills using Javascript, Node JS, Express, Python, React, MongoDB, Mongoose, Bootstrap,Semantic-UI, SASS, HTML, CSS</li>
                         </ul>
                 </div>
